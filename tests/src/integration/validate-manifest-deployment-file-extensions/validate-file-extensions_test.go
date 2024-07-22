@@ -20,13 +20,13 @@
 package tests
 
 import (
-	"github.com/apache/openwhisk-wskdeploy/tests/src/integration/common"
+	"github.com/sciabarracom/openwhisk-wskdeploy/tests/src/integration/common"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
 )
 
-var projectPath = "/src/github.com/apache/openwhisk-wskdeploy/tests/src/integration/validate-manifest-deployment-file-extensions/"
+var projectPath = "/src/github.com/sciabarracom/openwhisk-wskdeploy/tests/src/integration/validate-manifest-deployment-file-extensions/"
 
 func TestYAMLExtension(t *testing.T) {
 	manifestPath := os.Getenv("GOPATH") + projectPath + "manifest.yaml"

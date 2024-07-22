@@ -21,7 +21,7 @@ package tests
 
 import (
 	//	"fmt"
-	"github.com/apache/openwhisk-wskdeploy/tests/src/integration/common"
+	"github.com/sciabarracom/openwhisk-wskdeploy/tests/src/integration/common"
 	//	"github.com/stretchr/testify/assert"
 	"io/ioutil"
 	"os"

@@ -27,10 +27,10 @@ import (
 	"time"
 
 	"github.com/apache/openwhisk-client-go/whisk"
-	"github.com/apache/openwhisk-wskdeploy/utils"
-	"github.com/apache/openwhisk-wskdeploy/wskderrors"
-	"github.com/apache/openwhisk-wskdeploy/wski18n"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/utils"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskderrors"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wski18n"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 )
 
 const (
@@ -95,7 +95,7 @@ var FileRuntimeExtensionsMap map[string]string
 // We could get the openwhisk info from bluemix through running the command
 // `curl -k https://openwhisk.ng.bluemix.net`
 // hard coding it here in case of network unavailable or failure.
-func ParseOpenWhisk(apiHost string) (op OpenWhiskInfo, err error) {
+func _ParseOpenWhisk(apiHost string) (op OpenWhiskInfo, err error) {
 	opURL := apiHost
 	_, err = url.ParseRequestURI(opURL)
 	if err != nil {

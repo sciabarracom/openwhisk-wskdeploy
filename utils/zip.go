@@ -24,8 +24,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/apache/openwhisk-wskdeploy/wski18n"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wski18n"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 )
 
 const PATH_WILDCARD = "*"

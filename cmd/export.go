@@ -25,12 +25,12 @@ import (
 	"strings"
 
 	"github.com/apache/openwhisk-client-go/whisk"
-	"github.com/apache/openwhisk-wskdeploy/deployers"
-	"github.com/apache/openwhisk-wskdeploy/parsers"
-	"github.com/apache/openwhisk-wskdeploy/runtimes"
-	"github.com/apache/openwhisk-wskdeploy/utils"
-	"github.com/apache/openwhisk-wskdeploy/wski18n"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/deployers"
+	"github.com/sciabarracom/openwhisk-wskdeploy/parsers"
+	"github.com/sciabarracom/openwhisk-wskdeploy/runtimes"
+	"github.com/sciabarracom/openwhisk-wskdeploy/utils"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wski18n"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 	"github.com/spf13/cobra"
 )
 

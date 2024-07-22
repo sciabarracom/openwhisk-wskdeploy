@@ -22,8 +22,8 @@ package deployers
 import (
 	"fmt"
 	"github.com/apache/openwhisk-client-go/whisk"
-	"github.com/apache/openwhisk-wskdeploy/utils"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/utils"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 	"github.com/stretchr/testify/assert"
 	"reflect"
 	"testing"

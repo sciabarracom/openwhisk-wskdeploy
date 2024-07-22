@@ -18,8 +18,8 @@
 package main
 
 import (
-	"github.com/apache/openwhisk-wskdeploy/cmd"
-	"github.com/apache/openwhisk-wskdeploy/utils"
+	"github.com/sciabarracom/openwhisk-wskdeploy/cmd"
+	"github.com/sciabarracom/openwhisk-wskdeploy/utils"
 )
 
 func main() {
@@ -28,9 +28,9 @@ func main() {
 
 var (
 	//Version ...The Version of the tool
-	Version   = "unset"
-	GitCommit = "unset"
-	BuildDate = "unset"
+	Version   = "openserverless"
+	GitCommit = "openserverless"
+	BuildDate = "openserverless"
 )
 
 func init() {

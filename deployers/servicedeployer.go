@@ -20,7 +20,7 @@ package deployers
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/apache/openwhisk-wskdeploy/webaction"
+	"github.com/sciabarracom/openwhisk-wskdeploy/webaction"
 	"net/http"
 	"path"
 	"reflect"
@@ -30,12 +30,12 @@ import (
 	"time"
 
 	"github.com/apache/openwhisk-client-go/whisk"
-	"github.com/apache/openwhisk-wskdeploy/dependencies"
-	"github.com/apache/openwhisk-wskdeploy/parsers"
-	"github.com/apache/openwhisk-wskdeploy/utils"
-	"github.com/apache/openwhisk-wskdeploy/wskderrors"
-	"github.com/apache/openwhisk-wskdeploy/wski18n"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/dependencies"
+	"github.com/sciabarracom/openwhisk-wskdeploy/parsers"
+	"github.com/sciabarracom/openwhisk-wskdeploy/utils"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskderrors"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wski18n"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 )
 
 const (

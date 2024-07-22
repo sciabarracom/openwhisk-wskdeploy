@@ -19,8 +19,8 @@ package wskderrors
 
 import (
 	"fmt"
-	"github.com/apache/openwhisk-wskdeploy/wski18n"
-	"github.com/apache/openwhisk-wskdeploy/wskprint"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wski18n"
+	"github.com/sciabarracom/openwhisk-wskdeploy/wskprint"
 	"io/ioutil"
 	"net/http"
 	"path/filepath"

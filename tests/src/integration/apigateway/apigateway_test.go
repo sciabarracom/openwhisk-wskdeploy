@@ -20,13 +20,13 @@
 package tests
 
 import (
-	"github.com/apache/openwhisk-wskdeploy/tests/src/integration/common"
+	"github.com/sciabarracom/openwhisk-wskdeploy/tests/src/integration/common"
 	"github.com/stretchr/testify/assert"
 	"os"
 	"testing"
 )
 
-const PATH = "/src/github.com/apache/openwhisk-wskdeploy/tests/src/integration/apigateway/"
+const PATH = "/src/github.com/sciabarracom/openwhisk-wskdeploy/tests/src/integration/apigateway/"
 
 func TestApiGateway(t *testing.T) {
 	wskdeploy := common.NewWskdeploy()
